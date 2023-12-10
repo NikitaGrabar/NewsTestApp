@@ -33,6 +33,7 @@ class NewsController: UIViewController {
         setupNavBar()
         getNews("")
     }
+    // чуть не правильно сделал,мог бы и проще,но пришлось считать в ручную количество страниц
     
     private func getNews(_ page: String) {
         isLoadingNewPage = true
